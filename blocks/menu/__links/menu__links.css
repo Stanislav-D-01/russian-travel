@@ -1,0 +1,13 @@
+.menu__links{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+ }
+ @media screen and (max-width:687px) {
+  .menu__links{
+    flex-direction: column;
+  }
+
+}

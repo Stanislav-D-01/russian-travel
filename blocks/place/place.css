@@ -1,0 +1,38 @@
+.place{
+  background-color: #2A2C2F;
+  display: grid;
+  grid-template-columns: minmax(100px,460px) minmax(100px,484px);
+  grid-template-rows: auto;
+  padding: 0;
+  row-gap: 48px;
+  column-gap: 40px;
+  margin: 0 0 80px 0;
+  object-fit: fill;
+}
+
+@media screen and (max-width: 1024px) {
+  .place{
+    grid-template-columns: minmax(100px,440px) minmax(100px,456px);
+    column-gap: 32px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .place{
+    grid-template-columns: minmax(100px,340px) minmax(100px,352px);
+    column-gap: 28px;
+    margin: 0 0 73px 0;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+  .place{
+    grid-template-columns: minmax(300px,320px);
+    grid-template-rows: auto;
+    column-gap: 32px;
+    margin: 0 0 50px 0;
+
+}
+}
