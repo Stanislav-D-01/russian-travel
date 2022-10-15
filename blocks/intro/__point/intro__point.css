@@ -1,5 +1,6 @@
-.list__point{
-  padding: 0;
+.intro__point{
+  font-family: "Inter";
+	padding: 0;
   margin: 0;
   list-style: none;
   font-style: normal;

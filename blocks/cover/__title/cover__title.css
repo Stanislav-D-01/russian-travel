@@ -1,18 +1,19 @@
 .cover__title{
-max-width: 560px;
-max-height: 152px;
-font-style: normal;
-font-weight: 900;
-font-size: 72px;
-line-height: 76px;
-text-align:center;
-color: white;
-padding: 0;
-margin: 0;
-pointer-events: none;
-position:absolute;
-top:245px;
-left: 312px;
+  font-family: "Inter";
+	font-style: normal;
+  max-width: 560px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align:center;
+  color: white;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  z-index: 1;
+
+
 
 }
 

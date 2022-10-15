@@ -1,0 +1,10 @@
+.cover__wrapper{
+max-width: 1184px;
+box-sizing: border-box;
+position: relative;
+padding-top: 62.5%;
+background-image: url(../../../image/cover__background.jpg);
+background-size: cover;
+background-position: center;
+margin: 0 auto;
+}

@@ -1,4 +1,4 @@
-.place{
+.places__place{
   background-color: #2A2C2F;
   display: grid;
   grid-template-columns: minmax(100px,460px) minmax(100px,484px);
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .place{
+  .places__place{
     grid-template-columns: minmax(100px,440px) minmax(100px,456px);
     column-gap: 32px;
   }
@@ -19,19 +19,19 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place{
+  .places__place{
     grid-template-columns: minmax(100px,340px) minmax(100px,352px);
     column-gap: 28px;
-    margin: 0 0 73px 0;
+    margin: 0 0 72px 0;
   }
 
 }
 
-@media screen and (max-width: 360px) {
-  .place{
+@media screen and (max-width: 500px) {
+  .places__place{
     grid-template-columns: minmax(300px,320px);
     grid-template-rows: auto;
-    column-gap: 32px;
+    gap: 32px;
     margin: 0 0 50px 0;
 
 }
