@@ -8,14 +8,15 @@
     <title>Путешествия по России</title>
   </head>
   <body class="page">
+
+    <header class="header">
+      <img src="./image/header__logo.svg" alt="Логотип Россия" class="header__logo">
+      <div class="block-lang-links">
+        <a href="#" class="block-lang-links__link block-lang-links__link_active">Ru</a>
+        <a href="#" class="block-lang-links__link">En</a>
+      </div>
+    </header>
     <main class="'main">
-      <header class="header">
-        <img src="./image/header__logo.jpg" alt="Логотип Россия" class="header__logo">
-        <div class="block-lang-links">
-          <a href="#" class="block-lang-links__link block-lang-links__link_active">Ru</a>
-          <a href="#" class="block-lang-links__link">En</a>
-        </div>
-      </header>
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -37,7 +38,7 @@
           <li class="intro__point">Аэропортов <span class="intro__digitals">241</span></li>
         </ul>
       </section>
-      <div class="photo-grid">
+      <section class="photo-grid">
         <img src="./image/photo-grid__item-1.jpg" alt="картинка с достопремечательностью-1" class="photo-grid__element">
         <img src="./image/photo-grid__item-2.jpg" alt="картинка с достопремечательностью-2" class="photo-grid__element">
         <img src="./image/photo-grid__item-3.jpg" alt="картинка с достопремечательностью-3" class="photo-grid__element">
@@ -50,7 +51,7 @@
         <img src="./image/photo-grid__item-10.jpg" alt="картинка с достопремечательностью-10" class="photo-grid__element">
         <img src="./image/photo-grid__item-11.jpg" alt="картинка с достопремечательностью-11" class="photo-grid__element">
         <img src="./image/photo-grid__item-12.jpg" alt="картинка с достопремечательностью-12" class="photo-grid__element">
-      </div>
+      </section>
 
       <section class="places">
         <div class="places__place">
@@ -141,25 +142,25 @@
       </section>
 
       <section class="cover">
-        <div class="cover__wrapper">
-          <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-            <h2 class="cover__title">До Байкала «на собаках»</h2>
-            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-          </a>
-        </div>
+        <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+        </a>
       </section>
-      <footer class="footer">
-        <nav class="menu">
-          <ul class="menu__links">
-            <li class="menu__link-li"><a href="https://yandex.ru/maps" class="menu__link">Карты</a></li>
-            <li class="menu__link-li"><a href="https://yandex.ru/pogoda" class="menu__link">Погода</a></li>
-            <li class="menu__link-li"><a href="https://rasp.yandex.ru" class="menu__link">Расписание</a></li>
-            <li class="menu__link-li"><a href="https://calendar.yandex.ru" class="menu__link">Календарь</a></li>
-            <li class="menu__link-li"><a href="https://travel.yandex.ru" class="menu__link">Путешествия</a></li>
-          </ul>
-        </nav>
-        <p class="footer__copyright">&#169; 2022. Dubinin.S</p>
-      </footer>
+
     </main>
+    <footer class="footer">
+      <nav class="menu">
+        <ul class="menu__links">
+          <li class="menu__link-li"><a href="https://yandex.ru/maps" class="menu__link">Карты</a></li>
+          <li class="menu__link-li"><a href="https://yandex.ru/pogoda" class="menu__link">Погода</a></li>
+          <li class="menu__link-li"><a href="https://rasp.yandex.ru" class="menu__link">Расписание</a></li>
+          <li class="menu__link-li"><a href="https://calendar.yandex.ru" class="menu__link">Календарь</a></li>
+          <li class="menu__link-li"><a href="https://travel.yandex.ru" class="menu__link">Путешествия</a></li>
+        </ul>
+      </nav>
+      <p class="footer__copyright">&#169; 2022. Dubinin.S</p>
+    </footer>
+
   </body>
 </html>

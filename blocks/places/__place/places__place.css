@@ -10,6 +10,7 @@
   object-fit: fill;
 }
 
+
 @media screen and (max-width: 1024px) {
   .places__place{
     grid-template-columns: minmax(100px,440px) minmax(100px,456px);

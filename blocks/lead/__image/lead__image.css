@@ -1,10 +1,11 @@
 .lead__image {
-  max-width: 1032px;
+  max-width: 1080px;
   width: 100vw;
-  height: auto;
+  height: 100%;
   padding: 0 48px 0 48px;
-  box-sizing: border-box;
-  object-fit: fill;
+  box-sizing:border-box;
+  object-fit: cover;
+  object-position: 100% 100%;
   }
 
 @media screen and (max-width: 768px) {
